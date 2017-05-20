@@ -1,4 +1,5 @@
 import Hero from './Hero'
+import MersenneTwister from 'mersennetwister'
 
 let $ = window.jQuery;
 
@@ -9,7 +10,8 @@ class Heroes {
             this.heroes.push(new Hero($(element)));
         });
 
-        let chosen = null;
+        this.twister = new MersenneTwister();
+        this.chosen = null;
     }
 
     choose() {
@@ -29,7 +31,7 @@ class Heroes {
         }
 
         // Pick a random hero
-        this.chosen = selectedHeroes[Math.floor(Math.random() * selectedHeroes.length)];
+        this.chosen = selectedHeroes[Math.floor(this.twister.rndHiRes() * selectedHeroes.length)];
         this.chosen.pick();
     }
 }
