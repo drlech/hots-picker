@@ -1,0 +1,17 @@
+button {
+  padding: 10px 0;
+  width: 150px;
+
+  color: #cfcaff;
+  font-weight: bold;
+
+  background-color: #180e33;
+  border: 3px solid #6f92fe;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #350d45;
+    border-color: #d5dafe;
+    box-shadow: 0 0 12px 0 #5d2dc8;
+  }
+}

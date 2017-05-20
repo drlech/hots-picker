@@ -1,0 +1,18 @@
+.tooltip {
+  display: none;
+
+  padding: 5px;
+
+  position: absolute;
+  z-index: 5;
+  left: 50%;
+  top: 50%;
+
+  font-size: 13px;
+  line-height: 15px;
+  color: #7999f5;
+
+  background-color: #180b3b;
+  border: 1px solid #817bd1;
+  box-shadow: 0 0 3px 0 #180b3b;
+}

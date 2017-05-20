@@ -1,0 +1,332 @@
+abathur:
+  name: Abathur
+  role: Specialist
+  franchise: Starcraft
+
+alarak:
+  name: Alarak
+  role: Assassin
+  franchise: Starcraft
+
+anubarak:
+  name: Anub'arak
+  role: Warrior
+  franchise: Warcraft
+
+artanis:
+  name: Artanis
+  role: Warrior
+  franchise: Starcraft
+
+arthas:
+  name: Arthas
+  role: Warrior
+  franchise: Warcraft
+
+auriel:
+  name: Auriel
+  role: Support
+  franchise: Diablo
+
+azmodan:
+  name: Azmodan
+  role: Specialist
+  franchise: Diablo
+
+brightwing:
+  name: Brightwing
+  role: Support
+  franchise: Diablo
+
+cassia:
+  name: Cassia
+  role: Assassin
+  franchise: Diablo
+
+chen:
+  name: Chen
+  role: Warrior
+  franchise: Warcraft
+
+cho:
+  name: Cho
+  role: Warrior
+  franchise: Warcraft
+
+gall:
+  name: Gall
+  role: Assassin
+  franchise: Warcraft
+
+chromie:
+  name: Chromie
+  role: Assassin
+  franchise: Warcraft
+
+dva:
+  name: D.Va
+  role: Warrior
+  franchise: Overwatch
+
+dehaka:
+  name: Dehaka
+  role: Warrior
+  franchise: Starcraft
+
+diablo:
+  name: Diablo
+  role: Warrior
+  franchise: Diablo
+
+etc:
+  name: ETC
+  role: Warrior
+  franchise: Warcraft
+
+falstad:
+  name: Falstad
+  role: Assassin
+  franchise: Warcraft
+
+gazlowe:
+  name: Gazlowe
+  role: Specialist
+  franchise: Warcraft
+
+genji:
+  name: Genji
+  role: Assassin
+  franchise: Overwatch
+
+greymane:
+  name: Greymane
+  role: Assassin
+  franchise: Warcraft
+
+guldan:
+  name: Gul'dan
+  role: Assassin
+  franchise: Warcraft
+
+illidan:
+  name: Illidan
+  role: Assassin
+  franchise: Warcraft
+
+jaina:
+  name: Jaina
+  role: Assassin
+  franchise: Warcraft
+
+johanna:
+  name: Johanna
+  role: Warrior
+  franchise: Diablo
+
+kaelthas:
+  name: Kael'thas
+  role: Assassin
+  franchise: Warcraft
+
+kerrigan:
+  name: Kerrigan
+  role: Assassin
+  franchise: Starcraft
+
+kharazim:
+  name: Kharazim
+  role: Support
+  franchise: Diablo
+
+leoric:
+  name: Leoric
+  role: Warrior
+  franchise: Diablo
+
+lili:
+  name: Li Li
+  role: Support
+  franchise: Warcraft
+
+liming:
+  name: Li-Ming
+  role: Assassin
+  franchise: Diablo
+
+ltmorales:
+  name: Lt. Morales
+  role: Support
+  franchise: Starcraft
+
+lucio:
+  name: Lucio
+  role: Support
+  franchise: Overwatch
+
+lunara:
+  name: Lunara
+  role: Assassin
+  franchise: Warcraft
+
+malfurion:
+  name: Malfurion
+  role: Support
+  franchise: Warcraft
+
+medivh:
+  name: Medivh
+  role: Specialist
+  franchise: Warcraft
+
+muradin:
+  name: Muradin
+  role: Warrior
+  franchise: Warcraft
+
+murky:
+  name: Murky
+  role: Specialist
+  franchise: Warcraft
+
+nazeebo:
+  name: Nazeebo
+  role: Specialist
+  franchise: Diablo
+
+nova:
+  name: Nova
+  role: Assassin
+  franchise: Starcraft
+
+probius:
+  name: Probius
+  role: Specialist
+  franchise: Starcraft
+
+ragnaros:
+  name: Ragnaros
+  role: Assassin
+  franchise: Warcraft
+
+raynor:
+  name: Raynor
+  role: Assassin
+  franchise: Starcraft
+
+rehgar:
+  name: Rehgar
+  role: Support
+  franchise: Warcraft
+
+rexxar:
+  name: Rexxar
+  role: Warrior
+  franchise: Warcraft
+
+samuro:
+  name: Samuro
+  role: Assassin
+  franchise: Warcraft
+
+sgthammer:
+  name: Sgt. Hammer
+  role: Specialist
+  franchise: Starcraft
+
+sonya:
+  name: Sonya
+  role: Warrior
+  franchise: Warcraft
+
+stitches:
+  name: Stitches
+  role: Warrior
+  franchise: Warcraft
+
+sylvanas:
+  name: Sylvanas
+  role: Specialist
+  franchise: Warcraft
+
+tassadar:
+  name: Tassadar
+  role: Support
+  franchise: Starcraft
+
+thebutcher:
+  name: The Butcher
+  role: Assassin
+  franchise: Diablo
+
+lostvikings:
+  name: Lost Vikings
+  role: Specialist
+  franchise: Blizzard
+
+thrall:
+  name: Thrall
+  role: Assassin
+  franchise: Warcraft
+
+tracer:
+  name: Tracer
+  role: Assassin
+  franchise: Overwatch
+
+tychus:
+  name: Tychus
+  role: Assassin
+  franchise: Starcraft
+
+tyrael:
+  name: Tyrael
+  role: Warrior
+  franchise: Diablo
+
+tyrande:
+  name: Tyrande
+  role: Support
+  franchise: Warcraft
+
+uther:
+  name: Uther
+  role: Support
+  franchise: Warcraft
+
+valeera:
+  name: Valeera
+  role: Assassin
+  franchise: Warcraft
+
+varian:
+  name: Varian
+  role:
+    - Multiclass
+    - Warrior
+    - Assassin
+  franchise: Warcraft
+
+xul:
+  name: Xul
+  role: Specialist
+  franchise: Diablo
+
+zagara:
+  name: Zagara
+  role: Specialist
+  franchise: Starcraft
+
+zarya:
+  name: Zarya
+  role: Warrior
+  franchise: Overwatch
+
+zeratul:
+  name: Zeratul
+  role: Assassin
+  franchise: Warcraft
+
+zuljin:
+  name: Zul'jin
+  role: Assassin
+  franchise: Warcraft

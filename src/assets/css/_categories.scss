@@ -1,0 +1,14 @@
+.categories {
+  @include cf;
+}
+
+.franchises {
+  @include cf;
+  float: left;
+}
+
+.roles {
+  @include cf;
+  float: left;
+  margin-left: 25px;
+}

@@ -1,0 +1,51 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <main class="ui">
+        <div class="container">
+
+            <div class="categories">
+                <div class="franchises">
+                    {% for franchise in franchises %}
+                        <div class="small-circle">
+                            <div class="inner">
+                                <div class="letter">{{ franchise|first }}</div>
+                                <div class="tooltip">{{ franchise }}</div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+
+                <div class="roles">
+                    {% for role in roles %}
+                        <div class="small-circle">
+                            <div class="inner">
+                                <div class="letter">{{ role|first }}</div>
+                                <div class="tooltip">{{ role }}</div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="heroes">
+                {% for heroId,hero in heroes %}
+                    <div class="large-circle {{ hero.selected is defined and hero.selected ? 'selected' }}" data-hero="{{ heroId }}">
+                        <div class="inner">
+                            <div class="sizer">
+                                <div class="image" style="background-image: url({{ asset('assets/images/' ~ heroId ~ '.jpg') }});"></div>
+                                <div class="letter">{{ hero.name|first }}</div>
+                                <div class="tooltip">{{ hero.name }}</div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+
+            <footer class="ui-footer">
+                <button id="choose">Choose!</button>
+            </footer>
+
+        </div>
+    </main>
+{% endblock %}

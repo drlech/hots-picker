@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}HOTS Picker{% endblock %}</title>
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+
+        <script type="text/javascript" src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+
+        <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+        <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    </head>
+
+    <body>
+        {% block body %}{% endblock %}
+
+        <script type="text/javascript" src="{{ asset('assets/js/bundle.js') }}"></script>
+    </body>
+</html>
