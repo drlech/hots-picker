@@ -173,6 +173,11 @@ malfurion:
   role: Support
   franchise: Warcraft
 
+malthael:
+  name: Malthael
+  role: Assassin
+  franchise: Diablo
+
 medivh:
   name: Medivh
   role: Specialist
