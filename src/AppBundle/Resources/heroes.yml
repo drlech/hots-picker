@@ -8,6 +8,11 @@ alarak:
   role: Assassin
   franchise: Starcraft
 
+ana:
+  name: Ana
+  role: Support
+  franchise: Overwatch
+
 anubarak:
   name: Anub'arak
   role: Warrior
@@ -88,6 +93,11 @@ falstad:
   role: Assassin
   franchise: Warcraft
 
+garrosh:
+  name: Garrosh
+  role: Warrior
+  franchise: Warcraft
+
 gazlowe:
   name: Gazlowe
   role: Specialist
@@ -125,6 +135,11 @@ johanna:
 
 kaelthas:
   name: Kael'thas
+  role: Assassin
+  franchise: Warcraft
+
+kelthuzad:
+  name: Kel'Thuzad
   role: Assassin
   franchise: Warcraft
 
@@ -247,6 +262,11 @@ stitches:
   name: Stitches
   role: Warrior
   franchise: Warcraft
+
+stukov:
+  name: Stukov
+  role: Support
+  franchise: Starcraft
 
 sylvanas:
   name: Sylvanas
